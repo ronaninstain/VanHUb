@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Main{
+    width: 1000px;
+     margin: 0 auto;
+     background-image: url(../Images/VanHub.jpg);
+     background-size: auto;
+     background-position: center;
+     border-image-width: auto;
+ }
+ .head{
+     overflow: hidden;
+     padding: 40px 10px;
+     background-color: ghostwhite;
+     border: 15px solid black;
+ }
+.logo{
+    float: left;
+    width: 200px;
+    margin right: 20px;
+}
+.logo a{
+    text-transform: uppercase;
+    -: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 36px;
+    display: inline-block;
+    color: black;
+}
+.menu{
+    float: right;
+    width: 780;
+}
+.menu ul{
+    text-align: right;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+}
+.menu ul li a:hover{
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Page-banner{
+    background-image: url(../Images/BackGroundBanner.jpg);
+    padding: 155px 0px;
+    background-size: cover;
+    background-position: center;
+    border-image-width: auto;
+    margin-top: 15px;
+    max-width: 100%;
+}
+.Page-banner h4, .ServicesBanner h4, .banner h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: oblique;
+    color: ghostwhite;
+}
+.banner{
+   background-image: url("../Images/VanhubBannar.jpg");
+   margin-top: 10px;
+   padding: 155px 0px;
+   background-size: inherit;
+   background-position: center;
+   border-image-width: auto;
+   margin-top: 15px;
+   max-width: 100%;
+}
+
+.ServicesBanner{
+    background-image: url("../Images/ServicesBanner.jpg");
+    margin-top: 10px;
+    padding: 155px 0px;
+    background-size: cover;
+    background-position: center;
+    border-image-width: auto;
+    margin-top: 15px;
+    max-width: 100%;
+}
+.services{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.single-services{
+    float: left;
+    width: 333px;
+    overflow: auto;
+    
+}
+.other-pages .single-services:nth-child(3),.other-pages .single-services:nth-child(6) {
+    
+    margin-bottom: 85px;
+    margin-right: 1px;
+}
+
+.single-services h4{
+    text-align: center;
+    font-weight: bold;
+    padding: 20 10;
+    border: 10px solid currentColor;
+    background-color: orange;
+}
+.single-services img{
+    max-width: 100%;
+    padding-top: 15;
+    padding-right: 15;
+}
+.single-services p{
+    margin: 10 0;
+    line-height: 25px;
+    font-size: 18px;
+    border: 10px solid black;
+    background-color: transparent;
+    padding: 10px 13px;
+}
+.single-services p:hover{
+    background-color: orangered
+}
+
+.single-services a, .about_left a{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 19px;
+}
+
+
+.about{
+    overflow: hidden;
+}
+.about_left{
+    float: left;
+    width: 878px;
+    margin-right: 10px 0;
+    /* padding: 20px 10px; */
+    margin-right: 20px;
+}
+.about_left h4, .aboutmenu h4{    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding: 10px;
+    border-bottom: 10px solid orange;
+    border-left: 10 solid;S
+
+}
+.about_left p{
+    line-height: 26px;
+    overflow: auto;
+    color: black;
+    background-color: transparent;
+    padding: auto;
+    /* text-decoration-color: chocolate; */
+    background-color: redorange;
+    font-size: 21px;
+    /* display: block;SS*/
+    border:10px solid black;
+    padding: 12px 10px;
+}
+.about_left p:hover{
+    background-color: #f1c40f;
+}
+.aboutmenu{
+    float: right;
+    width: 220px;
+}
+.aboutmenu h4{
+
+}
+.aboutmenu ul{
+
+}
+.aboutmenu ul li{
+    list-style: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.aboutmenu ul li:nth-child(even)
+{
+    border-color: black;
+}
+
+.aboutmenu ul li:nth-child(odd)
+{
+    border-color: #f1c40f;
+}
+.aboutmenu ul li:last-child{
+    border-bottom: 0;
+}
+.aboutmenu ul li a:hover{
+    color: orange;
+    font-size: bold;
+    text-transform: uppercase;
+}
+
+.footer{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 18px;
+    margin: 8px 60px;
+    padding: 8px 34px;
+    background-color: ghostwhite;
+}
+.Contact{
+    overflow: hidden;
+    padding: 33px 0;
+}
+.Contact-Us{}
+.Contact-Us h4, .Adress h4{
+    text-transform: capitalize;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.Contact-Us form{
+    float: left;
+    width: 500px;
+    margin-right: 311px;
+}
+.Contact-Us input, .Contact-Us textarea{
+    width: 100%;
+    margin-bottom: 21px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.Adress{
+    float: right;
+    width: 270px;
+}
+.Adress ul{
+    list-style: none;
+}
+.Adress ul li{
+        /* list-style: none; */
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+        border-bottom: 1px solid black;
+}
+.Adress ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.Adress ul li a:hover{
+    background-color: #f1c40f;
+    font-weight: bold;
+}
+.{}
+.{}
+input[type="submit"] {
+    width: auto;
+    padding: 9px 33px;
+    background-color: darkorange;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ServiceBannar{
+    background-image: url("../Images/GroupBanner.jpg");
+    padding: 262px 177px;
+    background-size: cover;
+    background-position: center;
+    border-image-width: auto;
+    max-width: 100%;
+    margin-top: 14px;
+
+}
+.ServiceBannar h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: oblique;
+    color: aliceblue;
+
+}
+.custReview{
+    float: left;
+    width: 100%;
+    margin-bottom: 70px;
+    display: contents;
+    padding: 10px 115px;
+}
+.custReview h4{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding: 10px;
+    background-color: #f1c40f;
+    border: 4px solid black;
+}

@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    vertical-align: middle;
+}
 .Main{
     width: 1000px;
      margin: 0 auto;
@@ -81,7 +85,6 @@
    margin-top: 15px;
    max-width: 100%;
 }
-
 .ServicesBanner{
     background-image: url("../Images/ServicesBanner.jpg");
     margin-top: 10px;
@@ -99,15 +102,13 @@
 .single-services{
     float: left;
     width: 333px;
-    overflow: auto;
-    
+     overflow: auto;    
 }
 .other-pages .single-services:nth-child(3),.other-pages .single-services:nth-child(6) {
     
     margin-bottom: 85px;
     margin-right: 1px;
 }
-
 .single-services h4{
     text-align: center;
     font-weight: bold;
@@ -127,6 +128,7 @@
     border: 10px solid black;
     background-color: transparent;
     padding: 10px 13px;
+    margin-right: 14px;
 }
 .single-services p:hover{
     background-color: orangered
@@ -141,8 +143,6 @@
     padding: 10px 20px;
     font-size: 19px;
 }
-
-
 .about{
     overflow: hidden;
 }
@@ -182,12 +182,6 @@
     float: right;
     width: 220px;
 }
-.aboutmenu h4{
-
-}
-.aboutmenu ul{
-
-}
 .aboutmenu ul li{
     list-style: none;
     border-bottom: 1px solid black;
@@ -206,10 +200,15 @@
 .aboutmenu ul li:last-child{
     border-bottom: 0;
 }
+.aboutmenu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
 .aboutmenu ul li a:hover{
-    color: orange;
+    background-color: #f1c40f;
     font-size: bold;
     text-transform: uppercase;
+    font-weight: italic;
 }
 
 .footer{
@@ -225,7 +224,6 @@
     overflow: hidden;
     padding: 33px 0;
 }
-.Contact-Us{}
 .Contact-Us h4, .Adress h4{
     text-transform: capitalize;
     font-size: 23px;
@@ -264,8 +262,6 @@
     background-color: #f1c40f;
     font-weight: bold;
 }
-.{}
-.{}
 input[type="submit"] {
     width: auto;
     padding: 9px 33px;
@@ -309,4 +305,126 @@ input[type="submit"] {
     padding: 10px;
     background-color: #f1c40f;
     border: 4px solid black;
+}
+.Chefmain, .ownersmain{
+    width: 1000px;
+    margin: 100px auto;
+}
+.fix:before, .fix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.Aboutchef{
+    float: left;
+    width: 310px;
+    margin-left: 20px;
+    position: relative;
+    border: 8px solid black;
+    overflow: hidden;
+}
+.Aboutchef img, .singleowner img{
+    width: 100%;
+}
+.chefoverlay, .ownersoverlay{
+    position: absolute;
+    /* background-color: #fff; */
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    transform: scale(0);
+}
+.Aboutchef:hover .chefoverlay, .singleowner:hover .ownersoverlay{
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+    transform: scale(1);
+}
+.chefoverlay:before, .ownersoverlay:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: transparent;
+    opacity: .5;
+    z-index: -1;
+}
+.chefoverlay:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:red;
+    opacity: .5;
+    z-index: -1;
+}
+.chefcontent, .ownerscontent{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%
+}
+.chefcontent h4, .ownerscontent h4{
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 26px;
+}
+.chefcontent h4 span, .ownerscontent h4 span{
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+    color: black;
+}
+.otherowners .ownersoverlay:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #f1c40f;
+    opacity: .5;
+    z-index: -1;
+}
+.otherowners .singleowner{
+    float: left;
+    width: 310px;
+    margin-right: 23px;
+    position: relative;
+    border: 8px solid black;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.otherowners .singleowner:nth-child(3), .otherowners .singleowner:nth-child(6)
+{
+    margin-right: 0;
+}
+
+.map{
+    
+    width: 1000px;
+    padding: 100px 0;
+    background-position: center;
+
+}
+.map iframe{
+    padding: 10px 20px;
+    margin: 20px 100px;
+}
+.otherfooter{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 18px;
+    margin: 300px 387px;
+    padding: 8px 34px;
+    background-color: ghostwhite;
 }

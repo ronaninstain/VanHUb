@@ -106,8 +106,10 @@ img{
 }
 .other-pages .single-services:nth-child(3),.other-pages .single-services:nth-child(6) {
     
-    margin-bottom: 85px;
-    margin-right: 1px;
+    margin-bottom: 58px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .single-services h4{
     text-align: center;
@@ -121,17 +123,17 @@ img{
     padding-top: 15;
     padding-right: 15;
 }
-.single-services p{
+.single-services P{
     margin: 10 0;
     line-height: 25px;
     font-size: 18px;
     border: 10px solid black;
     background-color: transparent;
-    padding: 10px 13px;
-    margin-right: 14px;
+    padding: 8px 11px;
+    display: inline-table;
 }
 .single-services p:hover{
-    background-color: orangered
+    background-color: orangered;
 }
 
 .single-services a, .about_left a{

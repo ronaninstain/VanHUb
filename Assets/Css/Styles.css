@@ -64,8 +64,9 @@ img{
     background-size: cover;
     background-position: center;
     border-image-width: auto;
-    margin-top: 15px;
+    margin-top: 40px;
     max-width: 100%;
+    margin-bottom: 40px;
 }
 .Page-banner h4, .ServicesBanner h4, .banner h4{
     text-align: center;
@@ -106,7 +107,7 @@ img{
 }
 .other-pages .single-services:nth-child(3),.other-pages .single-services:nth-child(6) {
     
-    margin-bottom: 58px;
+    margin-bottom: 105px;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -120,8 +121,8 @@ img{
 }
 .single-services img{
     max-width: 100%;
-    padding-top: 15;
-    padding-right: 15;
+    padding-top: 15px;
+    padding-right: 7px;
 }
 .single-services P{
     margin: 10 0;
@@ -131,6 +132,7 @@ img{
     background-color: transparent;
     padding: 8px 11px;
     display: inline-table;
+    margin-right: 6px;
 }
 .single-services p:hover{
     background-color: orangered;
@@ -150,7 +152,7 @@ img{
 }
 .about_left{
     float: left;
-    width: 878px;
+    width: 677px;
     margin-right: 10px 0;
     /* padding: 20px 10px; */
     margin-right: 20px;
@@ -182,7 +184,7 @@ img{
 }
 .aboutmenu{
     float: right;
-    width: 220px;
+    width: 249px;
 }
 .aboutmenu ul li{
     list-style: none;
@@ -422,11 +424,13 @@ input[type="submit"] {
     margin: 20px 100px;
 }
 .otherfooter{
+   
     text-align: center;
     text-transform: capitalize;
     color: black;
     font-size: 18px;
-    margin: 300px 387px;
+    margin: 255px 0;
     padding: 8px 34px;
     background-color: ghostwhite;
+  
 }

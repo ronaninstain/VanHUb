@@ -434,3 +434,152 @@ input[type="submit"] {
     background-color: ghostwhite;
   
 }
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    
+    /* CSS */
+   .Main{
+       width: 970px;
+   }
+   .logo {
+
+    width: 130px; 
+}
+.single-services {
+    width: 323px;
+}
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .Main{
+        width: 750px;
+    }
+    .menu {
+        width: 480;
+    }
+    .single-services {
+        width: 250px;
+     
+    }
+    .about_left {
+        width: 501px;
+    }
+    .aboutmenu {
+        width: 229px;
+    }
+    .other-pages .single-services:nth-child(3), .other-pages .single-services:nth-child(6) {
+        margin-bottom: 138px;
+    }
+    .about {
+    width: 771px;
+}
+.otherowners .singleowner {
+    width: 233px;
+ 
+}
+  }
+
+    
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media only screen and (max-width: 767px) {
+    
+    /* CSS */
+    .Main{
+        width: 300px;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .single-services, .about_left, .aboutmenu{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer {
+        margin: 10px -1px;
+    }
+    .about_left h4, .aboutmenu h4 {
+        background-color: aliceblue;
+    }
+    .ServiceBannar {
+        padding: 61px 150px;
+    }
+    .ServiceBannar h4 {
+        font-size: 17px;
+        margin: 40px -30px;
+    }
+    .Chefmain, .ownersmain, .otherowners .singleowner {
+        width: 100%;
+    }
+    .Aboutchef {
+        width: 100%;
+        margin-left: 0;
+    }
+    .youtube {
+        display: flex;
+    }
+    .map {
+        width: 100%;
+        display: inline-flex;
+    }
+    .logo{
+        margin-bottom: 10px;
+    }
+
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+
+    .Main{
+        width: 450px;
+    }
+    
+    /* CSS */
+    
+  }

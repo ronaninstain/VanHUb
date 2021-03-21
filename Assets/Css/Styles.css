@@ -566,6 +566,16 @@ input[type="submit"] {
     .logo{
         margin-bottom: 10px;
     }
+    .Adress {
+        width: 100%;
+    }
+    .Contact-Us form {
+        width: 100%;
+    }
+    .Adress h4 {
+        background-color: aliceblue;
+        text-align: center;
+    }
 
 }
   

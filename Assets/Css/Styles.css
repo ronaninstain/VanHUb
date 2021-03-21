@@ -571,9 +571,13 @@ input[type="submit"] {
     }
     .Contact-Us form {
         width: 100%;
+        text-align: center;
     }
-    .Adress h4 {
+    .Adress h4, .Contact-Us h4 {
         background-color: aliceblue;
+        text-align: center;
+    }
+    .Adress ul li {
         text-align: center;
     }
 
